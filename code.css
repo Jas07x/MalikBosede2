@@ -1,10 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url("Images/connectwork.png");
+  background-color: black;
 }
 
 h1 {
-  text-align: center;
-  font-family: "OCR A Extended";
   color: white;
-  font-size: 70px;
+  font-size: 110px;
+  font-family: "Agency FB";
+  display: inline;
+  padding-top: 100px;
+  padding-bottom: 1px;
+  }
+
+header {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+
 }
+
+ul {
+  color: white;
+  font-family: Mistral;
+  font-size: 30px;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding-right: 50px;
+  }
+
+li:hover {
+  color: gold;
+}
+
+.media {
+  display: inline;
+}
+
+
+.video {
+  padding-top: 15px;
+  float: left;
+  clear: right;
+  }
+
+h4 {
+  font-size: 50px;
+  font-family: Helvetica;
+  color: white;
+  top: 15px;
+  padding-left: 1100px;
+  }
